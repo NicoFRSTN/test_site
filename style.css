@@ -1,0 +1,112 @@
+body{
+  background-color: #646E78;
+}
+
+h1{
+  color: white;
+  font-family: 'Chivo', sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: -5px;
+}
+
+h2{
+  color: white;
+  font-family: 'Chivo', sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: -30px;
+}
+
+p{
+  font-family: 'Overpass', sans-serif;
+  text-align: center;
+  text-justify: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+}
+
+.image_round{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid white;
+  border-width: 5px;
+  display: flex;
+  margin: 0 auto;
+  padding: 5px;
+
+}
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.inline-block {
+   display: inline-block;
+   position: relative;
+   align-items: center;
+   padding: 3px;
+}
+
+.card{
+  background: #8D98A7;
+  box-shadow: 5px 5px 10px rgb(59, 59, 59);
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 5px 20px 20px 20px;
+}
+
+.button_div{
+  margin: 20px;
+}
+
+.button{
+  background: black;
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  margin: 50px auto;
+  text-align: center;
+  padding:10px;
+  border-radius: 5px;
+}
+
+.button:hover{
+  background: #646E78;
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  margin: 50px auto;
+  text-align: center;
+  padding:10px;
+  border-radius: 5px;
+}
+
+@media (max-width: 720px) {
+    .container{
+    width: 95%;
+    margin: 0 auto;
+  }
+    .card{
+    background: #8D98A7;
+    box-shadow: 5px 5px 10px rgb(59, 59, 59);
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 5px 20px 20px 20px;
+    box-sizing: border-box;
+  }
+
+    p{
+    font-family: 'Overpass', sans-serif;
+    text-align: center;
+    text-justify: auto;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin: 2px;
+  }
+}
